@@ -833,6 +833,9 @@ margin-left: 25%;
   .contact-container{
     margin-right: 50px;
   }
+  .contact-icon a{
+    font-size: 25px;
+  }
 }
 .header {
   position: fixed;
