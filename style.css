@@ -494,8 +494,13 @@ progress::-webkit-progress-value{
   text-transform: uppercase;
   margin-top: 15px;
   cursor: pointer;
+  transition: all 0.3s ease;
   transform: rotate(-5deg);
 }
+.contact button:hover{
+  transform: rotate(2dg);
+}
+
 .contact-icon{
   display: flex;
   align-items: center;
@@ -503,15 +508,13 @@ progress::-webkit-progress-value{
   margin-top: 15px;
 }
 .icon{
-  font-size: 40px;
+  display: flex;
+  font-size: 50px;
   background: transparent;
+  border: 2px solid #0ef;
   border-radius: 50%;
   text-decoration: none;
-  color: #0ef;
-}
-.contact-icon p{
-  font-size: 30px;
-  font-weight: bold;
+  background-color: #042331;
   color: #0ef;
 }
 @keyframes Shake {
